@@ -1,0 +1,105 @@
+.main-text,.main-text p{
+    padding-left:0;
+    margin:0 auto;
+    text-align:center
+}
+.main-text{
+    position:absolute;
+    top:0;
+    width:100%;
+    color:#fff;
+    padding-top:260px
+}
+.main-text2 {
+margin-bottom:20px !important;
+}
+.main-text p{
+    font-family:DNFForgedBlade!important
+}
+.main-text1:after{
+    
+}
+.main-text .main-text2:after{
+    content: url("https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhJj4h4M18zQn5yYCg86Z53Zu8dE4sS17bBPFOJOIvlwHCZQLOdveipt912bXTHR-k1NzBcp2Y1_-DOq8ZccAQEOUcfeOXiYWfbTTs-leC6lVj2i6mGeQ_dHYkRyAamBtb3FgPgMeNBfKdWIFqpreJOHtOcnjDn0MsIeVToQ1_0lDguuDx4H94slxdIGVmJ/s16000/%EB%B8%94%EB%A3%A8163%EB%A1%9C%EA%B3%A02.png");
+    font-size: 51px;
+    text-shadow: #C38B61 1px 1px, #000 0px 0px, #000 1px 1px, #000 2px 2px, #000 3px 3px, #C38B61 4px 4px, #000 5px 5px;
+    color: #FAECC5;
+}
+@keyframes neon-flicker{
+    0%{
+        text-shadow:0 0 10px rgba(102,37,.7),0 0 20px rgba(102,37,.7),0 0 30px rgba(102,37,.7)
+    }
+    100%{
+        text-shadow:0 0 20px rgba(102,37,.7),0 0 30px rgba(102,37,.7),0 0 40px rgba(102,37,.7)
+    }
+}
+.main-date span{
+    background:rgba(18,18,18,0.4);
+    font-size:40px;
+    color:#fff;
+border:1px solid #0064ef;
+    word-break:keep-all;
+    word-wrap:break-word;
+    border-radius:10px;
+    
+    padding:10px 20px;
+    font-family:DNFForgedBlade!important;
+display:none;
+}
+.section-promotion{
+    top:0;
+}
+.section-promotion .section-promotion__list{
+    height:660px!important
+}
+
+.section-promotion .section-promotion__list li{
+top:-70px;
+}
+@media screen and (max-width:1024px){
+.section-promotion .section-promotion__list li{
+top:0;
+}
+    .main-text{
+        padding-top:30px !important;
+    }
+	.main-text1:after{
+	font-size:20px;	
+}
+.main-text2 {
+margin-bottom:0 !important;
+}
+    .main-text .main-text2:after{
+        font-size:50px;
+left: 170px;
+    position: absolute;
+zoom: 40%;
+
+    }
+
+.main-date {
+padding-top:120px
+}
+	.main-date span{
+font-size:15px;
+}
+    .section-promotion .section-promotion__list{
+        height:215px!important
+    }
+    .section-promotion{
+        top:0;
+        padding-top:40px !important;
+    }
+    #showsidebar1 img,#showsidebar2 img ,#showsidebar3 img{
+        height:100px!important
+    }
+	#showsidebar3{
+        bottom:36%!important
+    }
+    #showsidebar2{
+        bottom:22%!important
+    }
+    #showsidebar1{
+        bottom:8%!important
+    }
+}
